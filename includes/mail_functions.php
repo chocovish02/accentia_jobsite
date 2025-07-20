@@ -23,8 +23,8 @@ function sendEmail($to, $subject, $message) {
         $mail->CharSet = 'UTF-8';
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'sbjscheme@gmail.com'; // Using the same email as sendThankYouEmail
-        $mail->Password   = 'ktmg xfnx lcqa byub'; // Using the same password as sendThankYouEmail
+        $mail->Username   = '********'; // Using the same email as sendThankYouEmail
+        $mail->Password   = '********'; // Using the same password as sendThankYouEmail
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
@@ -55,8 +55,8 @@ function sendThankYouEmail($to, $name, $university, $graduation) {
         $mail->CharSet = 'UTF-8';
         $mail->Host       = 'smtp.gmail.com'; // Replace with your SMTP host
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'sbjscheme@gmail.com'; // Replace with your email
-        $mail->Password   = 'ktmg xfnx lcqa byub'; // Replace with your app password
+        $mail->Username   = '************'; // Replace with your email
+        $mail->Password   = '************'; // Replace with your app password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
